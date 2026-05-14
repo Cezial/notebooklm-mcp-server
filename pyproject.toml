@@ -1,0 +1,16 @@
+[project]
+name = "notebooklm-mcp-server"
+version = "0.1.0"
+description = "MCP server for Google NotebookLM"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "notebooklm-py[browser]>=0.4.0",
+]
+
+[project.optional-dependencies]
+auth = ["notebooklm-py[browser]"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 120

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets & local config
+.env
+.env.local
+.storage/
+
+# Capture / debug dumps (contains real Q&A content)
+dumps/
+
+# Auth storage (NotebookLM Playwright cookies)
+storage_state.json
+*.cookies
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Internal planning docs (not part of public release)
+docs/
